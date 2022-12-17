@@ -1,0 +1,27 @@
+
+/* header options */
+ul {
+  list-style-type: none;
+  margin: 105;
+  padding: 0;
+  overflow: hidden;
+  background-color: #140f0f;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #000000;
+}
+/* header options end */
+
