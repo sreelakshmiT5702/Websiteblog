@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@1,300&family=Playfair+Display:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@1,300&family=Playfair+Display:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@1,300&family=Playball&family=Playfair+Display:wght@700&display=swap');
+
+:root {
+    --main-bg-color: brown;
+    --font1: 'Hanken Grotesk', sans-serif;
+    --font2: 'Playfair Display', serif;
+    --font3: 'Playfair Display', serif;
+    --font4: 'Playfair Display', serif;
+}
+
+.font1 {
+    font-family: var(--font1);
+}
+
+.font2 {
+    font-family: var(--font4);
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+/* viewport width:- responsive width adjust. */
+
+
+.m-auto {
+    margin: auto;
+}
+
+.btn {
+    padding: 5px 5px 5px 5px;
+    border: 2px black;
+    border-radius: 4px;
+    font-family: var(--font1);
+    color: black;
+    background-color: lavender;
+    /* rgb(229, 194, 246) */
+    cursor: pointer;
+    /* padding-right: 5px;
+    padding-left: 5px;
+*/
+    transition: all 0.3s ease-in-out;
+    /* color of button fades after a while */
+}
+
+.btn:hover {
+    background-color: var(--main-bg-color);
+    color: white;
+}
+
+.form-input {
+    padding: 3px 5px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 0 13px;
+    font-family: var(--font1);
+}
